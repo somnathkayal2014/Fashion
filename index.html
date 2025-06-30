@@ -1,0 +1,330 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+    <!-- cust css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ======= cust responsive link -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./image/logo.png" loading="lazy" alt="logo">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#">catalouge</a></li>
+                    <li><a href="#">fashion</a></li>
+                    <li><a href="#">favorite</a></li>
+                    <li><a href="#">lifestyle</a></li>
+                </ul>
+                <div class="icon">
+                    <a href="#" class="cmn-btn">sign up</a>
+                    <div class="hamburger" id="hamburger" onclick="ToggleMenu()">
+                        <div class="bar bar1"></div>
+                        <div class="bar bar2"></div>
+                        <div class="bar bar3"></div>
+                    </div>
+                </div>
+            </nav>      
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-50">
+                        <div class="head">
+                            <h1>LET’S EXPLORE UNIQUE CLOTHES.</h1>
+                            <p>Live for Influential and Innovative fashion!</p>
+                            <a href="#" class="cmn-btn">shop now</a>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <figure>
+                            <img src="./image/banner-c-1.png" loading="lazy" alt="c-1">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="company">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./image/company-c-1.png" loading="lazy" alt="c-1">    
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/company-c-2.png" loading="lazy" alt="c-2">    
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/company-c-3.png" loading="lazy" alt="c-3">    
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/company-c-4.png" loading="lazy" alt="c-4">    
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/company-c-5.png" loading="lazy" alt="c-5">    
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./image/company-c-6.png" loading="lazy" alt="c-6">    
+                      </div>
+                    </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                </div>
+            </div>
+        </section>
+        <section class="arrive">
+            <div class="container">
+                <h2>new arrivals</h2>
+                <div class="row">
+                    <div class="col-30">
+                        <div class="card">
+                            <figure>
+                            <img src="./image/arrivals-c-1.png" loading="lazy" alt="c-1">
+                        </figure>
+                        <figcaption>
+                            <div class="details">
+                                <h3>hoodies and sweetshirt</h3>
+                                <p>explore now</p>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="card">
+                            <figure>
+                            <img src="./image/arrivals-c-2.png" loading="lazy" alt="c-2">
+                        </figure>
+                        <figcaption>
+                            <div class="details">
+                                <h3>coats & parks</h3>
+                                <p>explore now</p>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-30">
+                        <div class="card">
+                            <figure>
+                            <img src="./image/arrivals-c-3.png" loading="lazy" alt="c-3">
+                        </figure>
+                        <figcaption>
+                            <div class="details">
+                                <h3>tees & t-Shirt</h3>
+                                <p>explore now</p>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sale">
+            <div class="container">
+                <div class="row">
+                    <div class="col-50">
+                        <figure>
+                            <img src="./image/sale-c-1.png" loading="lazy" alt="c-1">
+                        </figure>
+                    </div>
+                    <div class="col-50 part-2">
+                        <head>
+                            <h2>payday sale now</h2>
+                            <p>Spend minimal $100 get 30% off voucher code for your next purchase</p>
+                            <div class="h3-title">
+                                1 june-10 june 2021
+                            </div>
+                            <a href="#" class="term">
+                                *terms and condition apply
+                            </a>
+                            <a href="#" class="cmn-btn">shop now</a>
+                        </head>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="young">
+            <div class="container">
+                <h2>young's favorite</h2>
+                <div class="row">
+                    <div class="col-50">
+                        <figure>
+                            <img src="./image/young-c-1.png" loading="lazy" alt="c-1">
+                        </figure>
+                        <figcaption>
+                            <div class="details">
+                                <h3>tees & t-Shirt</h3>
+                                <p>explore now</p>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </figcaption>
+                    </div>
+                    <div class="col-50">
+                        <figure>
+                        <img src="./image/young-c-2.png" loading="lazy" alt="c-2">
+                    </figure>
+                    <figcaption>
+                            <div class="details">
+                                <h3>tees & t-Shirt</h3>
+                                <p>explore now</p>
+                            </div>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                    </figcaption>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="app">
+            <div class="container">
+                <div class="row">
+                    <div class="col-50">
+                        <div class="head">
+                            <h2>download app & get the vouchar !</h2>
+                            <p>Get 30% off for first transaction using Rondovision mobile app for now.</p>
+                            <div class="link">
+                                <a href="#">
+                                    <img src="./image/app-c-1.png" loading="lazy" alt="c-1">
+                                </a>
+                                <a href="#">
+                                    <img src="./image/app-c-2.png" loading="lazy" alt="c-2">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-50">
+                        <figure>
+                            <img src="./image/app-c-3.png" loading="lazy" alt="c-3">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="promo">
+            <div class="container">
+                <div class="head">
+                    <h2>join shopping community to get monthly promo</h2>
+                    <p>Type your email down below and be young wild generation</p>
+                    <form action="#">
+                        <input type="email" placeholder="add your email here">
+                        <a href="#" class="cmn-btn">send</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-40">
+                    <div class="logo">
+                        <a href="index.html" class="logo">
+                            <img src="./image/footer-logo.png" loading="lazy" alt="f-logo">
+                        </a>
+                    </div>
+                    <p>Complete your style with awesome clothes from us.</p>
+                    <div class="social">
+                        <li>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-20">
+                    <div class="h2-title">
+                        company
+                    </div>
+                    <div class="company-1">
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a href="#">support</a></li>
+                        <li><a href="#">careers</a></li>
+                    </div>
+                </div>
+                <div class="col-20">
+                    <div class="h2-title">
+                        quick links
+                    </div>
+                    <div class="quick-link">
+                        <li><a href="#">share location</a></li>
+                        <li><a href="#">order tracking</a></li>
+                        <li><a href="#">size guide</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </div>
+                </div>
+                <div class="col-20">
+                    <div class="h2-title">
+                        legal
+                    </div>
+                    <div class="legal">
+                        <li><a href="#">terms & condition</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- cust js link -->
+    <script src="./js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    //   pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //   },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+      },
+    });
+  </script>
+</body>
+</html>

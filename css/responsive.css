@@ -1,0 +1,241 @@
+/* ========== 1199px ================= */
+@media(max-width: 1199px){
+    /* ======== navbar ============ */
+    .navbar .nav-menu{
+        padding-left: 250px;
+    }
+    .nav-menu li{
+        padding: 0 16px;
+    }
+    .navbar .cmn-btn{
+        margin-left: 0;
+        padding: 13px 20px;
+    }
+}
+/* ============= 1024px =============== */
+@media(max-width:1024px){
+    /* ============ navbar =============== */
+    .navbar .nav-menu{
+        padding-left: 0;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    /* ========== banner =========== */
+    .banner h1{
+        font-size: 46px;
+    }
+    .banner p{
+        font-size: 18px;
+    }
+    /* ========= sale ============ */
+    .sale h2{
+        font-size: 50px;
+    }
+    /* =========== app ============== */
+    .app h2{
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+}
+/* ============== 991px =========== */
+@media(max-width: 991px){
+    /* ========== banner =========== */
+    .navbar .logo a{
+        max-width: 180px;
+    }
+    .banner h1{
+        font-size: 36px;
+    }
+    .banner p{
+        font-size: 16px;
+    }
+    /* ========== arrive ======== */
+    .arrive .col-30{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+    .arrive .card{
+        margin-bottom: 30px;
+    }
+    /* ========= sale ============ */
+    .sale h2{
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .sale p{
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    .sale .h3-title{
+        font-size: 18px;
+    }
+    .sale .term{
+        margin-bottom: 20px;
+    }
+    /* =========== footer =============== */
+    .footer .col-40{
+        max-width: 50%;
+        flex:  0 0 50%;
+        text-align: center;
+    }
+    .footer .col-20{
+        max-width: 50%;
+        flex: 0 0 50%;
+        text-align: center;
+    }
+    .footer .col-40 p{
+        padding: 0;
+    }
+    .footer .social{
+        justify-content: center;
+    }
+    
+}
+/* =========== 767px =============== */
+@media(max-width: 767px){
+    .navbar .nav-menu{
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        transform: translateX(100%);
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.3s ease;
+        z-index: 2;
+    }
+    .hamburger{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .navbar .nav-menu.active{
+        transform: translateX(0);
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: rotate(45deg) translateY(7px);
+        background: #fff;
+        z-index: 3;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: rotate(-45deg) translateY(-7px);
+        background: #fff;
+        z-index: 3;
+    }
+    .navbar .icon{
+        display: flex;
+    }
+    .nav-menu li{
+        padding: 20px 0;
+    }
+    .nav-menu li a{
+        color: #fff;
+        font-size: 30px;
+    }
+    /* =========== banner =========== */
+    .banner .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .banner .head{
+        margin-bottom: 30px;
+    }
+    .company .swiper-slide img{
+    width: 100%;
+    }
+    /* ========== arrive ======== */
+    .arrive .col-30{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .arrive .card img{
+        width: 100%;
+    }
+    /* ========= sale =========== */
+    .sale .col-50{
+        max-width: 100%;
+        flex:  0 0 100%;
+    }
+    .sale .col-50 img{
+        margin-bottom: 30px;
+    }
+    /* ============= young =========== */
+    .young .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .young .col-50:nth-child(odd){
+        margin-bottom: 50px;
+    }
+    /* =========== app ============== */
+    .app .col-50{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .app .row{
+        flex-direction: column-reverse;
+    }
+    /* =========== promo ============ */
+    .promo h2{
+        font-size: 35px;
+    }
+}
+/* ============ 575px ========== */
+@media(max-width:575px){
+    /* =========== promo ============ */
+    .promo h2{
+        font-size: 30px;
+    }
+    /* ========== footer ========= */
+    .footer .col-20{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .footer .col-40{
+        max-width: 100%;
+        flex:  0 0 100%;
+    }
+}
+/* ========== 480px =========== */
+@media(max-width: 480px){
+    /* ========== navbar =============== */
+    .navbar .logo a{
+        max-width: 150px;
+    }
+    .navbar .cmn-btn{
+        padding: 10px ;
+    }
+    .hamburger{
+        margin-left: 10px;
+    }
+    /* ========= young ============= */
+    .young h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    /* ========== app =========== */
+    .app h2{
+        font-size: 30px;
+    }
+    .app p{
+        font-size: 16px;
+    }
+    /* =========== promo ============ */
+    .promo h2{
+        font-size: 20px;
+    }
+    .promo p{
+        font-size: 16px;
+    }
+    .promo input{
+        width: 300px;
+    }
+}
+/* =========== 375px  */
